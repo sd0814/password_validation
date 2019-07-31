@@ -1,0 +1,6 @@
+application:
+    debug: false
+
+logging:
+    level:
+        root: INFO

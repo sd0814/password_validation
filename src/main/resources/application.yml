@@ -1,0 +1,27 @@
+application:
+    debug: false
+
+    rules:
+        applied-rules: >
+            characterRule,
+            lengthRule,
+            sequenceRule
+
+        length-min: 5
+        length-max: 12
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "*"
+
+spring:
+    mvc:
+        throw-exception-if-no-handler-found: true
+    resources:
+        add-mappings: false
+
+logging:
+    level:
+        root: INFO
