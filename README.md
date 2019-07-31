@@ -7,6 +7,10 @@ Basic rules:
   - Must be between 5 and 12 characters in length.
   - Must not contain any sequence of characters immediately followed by the same sequence.
 
+Requirement:
+ - JDK 8. I'm using amazon openJDK 8.0.212-amzn.
+ - Maven for build project. I'm using 3.6.1
+
 ## Usage
 1. Build
     this project uses maven, the build command:
